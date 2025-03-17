@@ -15,10 +15,10 @@ services:
       APP_ENV: production
       IS_API_WORKER: "false"
       # Database settings
-      DB_HOST: db
+      DB_HOST: 24.216.42.113:6655
       REDIS_HOST: redis
-      DB_DATABASE: ${DB_DATABASE:-forge}
-      DB_USERNAME: ${DB_USERNAME:-forge}
+      DB_DATABASE: ${DB_DATABASE:-postgres}
+      DB_USERNAME: ${DB_USERNAME:-shonuff}
       DB_PASSWORD: ${DB_PASSWORD:-forge}
       DB_CONNECTION: ${DB_CONNECTION:-pgsql}
       # Storage settings
